@@ -12,10 +12,22 @@ html {
 
 }
 
+.wrap_img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
 .obj_name {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 5vh;
+}
+
+.pear_image {
+  width: 5vw;
+  height: auto;
 }
 
 .ety, .desc, .hist, .spec {
